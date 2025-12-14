@@ -368,7 +368,7 @@ com.escom.mediafinder/
 
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/[tu-usuario]/MediaFinder.git
+git clone https://github.com/MartinCortes20/MediaFinderPractica5Moviles
 cd MediaFinder
 ```
 
@@ -466,85 +466,6 @@ GET /shows?page={page}       // Shows populares
 
 ---
 
-## 💡 Conclusiones
-
-### Logros Principales
-
-1. **Implementación Exitosa de MVVM**
-   - Se logró una separación clara de responsabilidades
-   - El código es mantenible y escalable
-   - Los ViewModels manejan correctamente el estado
-
-2. **Sistema de Sincronización Robusto**
-   - La sincronización entre Room y Retrofit funciona sin intervención del usuario
-   - El modo offline es completamente funcional
-   - El cache inteligente mejora la experiencia del usuario
-
-3. **Arquitectura Limpia y Profesional**
-   - La estructura del proyecto sigue las mejores prácticas de Android
-   - El uso de Hilt facilita la inyección de dependencias
-   - El código es testeable y modular
-
-4. **UI Moderna con Jetpack Compose**
-   - La interfaz es intuitiva y atractiva
-   - Material 3 proporciona consistencia visual
-   - Las animaciones mejoran la experiencia
-
-### Retos Enfrentados
-
-1. **Compatibilidad Kapt vs KSP**
-   - **Problema:** Kapt no es compatible con Java 17+
-   - **Solución:** Migración a KSP (Kotlin Symbol Processing)
-   - **Aprendizaje:** KSP es más rápido y el futuro de Android
-
-2. **Error de jlink en Mac**
-   - **Problema:** Espacios en la ruta de Android Studio causaban fallos
-   - **Solución:** Limpiar cache de Gradle y configurar JDK correcto
-   - **Aprendizaje:** Importancia de la configuración del entorno
-
-3. **Sincronización de Datos**
-   - **Problema:** Decidir cuándo usar cache vs API
-   - **Solución:** Implementar lógica try-catch con fallback inteligente
-   - **Aprendizaje:** Balance entre performance y datos actualizados
-
-4. **Sistema de Recomendaciones**
-   - **Problema:** Generar recomendaciones relevantes
-   - **Solución:** Algoritmo basado en frecuencia de géneros
-   - **Aprendizaje:** Análisis de datos del usuario para personalización
-
-### Conocimientos Adquiridos
-
-- Manejo avanzado de Jetpack Compose
-- Implementación profesional de Room Database
-- Consumo de APIs REST con Retrofit
-- Arquitectura MVVM y Clean Architecture
-- Inyección de dependencias con Hilt
-- Programación reactiva con Coroutines y Flow
-- Manejo de estados y navegación en Compose
-
-### Mejoras Futuras
-
-1. **Funcionalidad de Administrador**
-   - Implementar panel admin para ver todos los usuarios
-   - Dashboard con estadísticas de búsquedas
-
-2. **Login con Google**
-   - Integración con Firebase Auth
-   - Login social para mejor UX
-
-3. **Detalles de Serie**
-   - Pantalla dedicada con información completa
-   - Trailers y actores
-
-4. **Notificaciones Push**
-   - Alertas de nuevos episodios de favoritos
-   - Recomendaciones semanales
-
-5. **Testing Automatizado**
-   - Unit tests para ViewModels y Repository
-   - UI tests con Compose Testing
-
----
 
 ## 📚 Referencias
 
@@ -580,24 +501,6 @@ GET /shows?page={page}       // Shows populares
 
 ---
 
-## 👨‍💻 Autor
-
-**[Tu Nombre Completo]**
-- Boleta: [Tu Número de Boleta]
-- Email: [tu-email@alumno.ipn.mx]
-- GitHub: [tu-usuario]
-
----
-
-## 📄 Licencia
-
-Este proyecto fue desarrollado como parte de la Práctica 5 del curso de Desarrollo de Aplicaciones Móviles Nativas en ESCOM - IPN.
-
----
-
-**Desarrollado con ❤️ usando Jetpack Compose**
-
-*Práctica 5 - Desarrollo de Aplicaciones Móviles Nativas*
 
 *ESCOM - Instituto Politécnico Nacional*
 
